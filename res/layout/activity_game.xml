@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background1"
+    tools:context=".GameActivity" >
+    <LinearLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginLeft="5dp"
+       android:gravity="center"
+        >
+     <TextView 
+           android:layout_width="35dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/grade"
+           android:layout_marginRight="10dp"
+           android:text="分数"/>
+<Button android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/beginButton"
+       android:text="@string/beginPlay"
+    />
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/maxGrade"
+           android:layout_marginLeft="20dp"
+           android:text="最高分数"/>
+</LinearLayout>
+    <ImageView 
+        android:id="@+id/showmap"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:contentDescription="@null"
+        android:background="@drawable/background"/>
+
+</LinearLayout>
